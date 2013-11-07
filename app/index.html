@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <script>
+		// Requires the GUI for shutting down the server on closing the app.
+		var GUI = require('nw.gui');
+		GUI.Shell.openExternal("https://google.com");
+	</script>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    We are using node.js <script>document.write(process.version)</script>.
+    <iframe src="http://127.0.0.1:3000/"></iframe>
+  </body>
+</html>
